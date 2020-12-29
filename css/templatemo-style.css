@@ -93,6 +93,17 @@ h1,
 h2 {
   font-size: 32px;
 }
+h1,
+h3,
+h2,
+span,
+a{
+    text-transform: none !important;
+}
+.get-in-touch-box{
+  font-size: 25px;
+  font-weight: 500;
+}
 h3 {
   font-size: 30px;
   font-weight: 600;
@@ -849,4 +860,8 @@ textarea.form-control {
   height: 6px;
   background-color: #fff;
   border-radius: 3px;
+}
+
+.about_us p {
+    font-size: large;
 }
